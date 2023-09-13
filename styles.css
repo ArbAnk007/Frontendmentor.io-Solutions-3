@@ -85,7 +85,7 @@ body {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .rating-btn {
         height: 50px;
         width: 50px;
