@@ -20,7 +20,7 @@ body {
     background-color: #212832;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -90,6 +90,7 @@ body {
         height: 50px;
         width: 50px;
         border-radius: 25px;
+        transition: background-color 0s, color 0s;
     }
 }
 
@@ -136,7 +137,7 @@ body {
     background-color: #212832;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .thanks-container {
         width: 300px;
     }
@@ -168,17 +169,4 @@ body {
 .selected {
     background-color: #7c8898;
     color: white;
-}
-
-@media screen and (max-width=400px) {
-    .rating-btn {
-        height: 60px;
-        width: 60px;
-        border-radius: 30px;
-        border: none;
-        background-color: #262f38;
-        color: hsl(216, 12%, 54%);
-        font-size: 16px;
-        font-weight: 700;
-    }
 }
